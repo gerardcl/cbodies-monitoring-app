@@ -1,0 +1,38 @@
+{
+  "name": "cbodiesMonitoringApp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "cd public && bower install",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "~4.12.4",
+    "body-parser": "~1.0.1",
+    "minimist": "^1.1.1",
+    "ws": "~0.7.2",
+    "kurento-client": "Kurento/kurento-client-js",
+    "fs": "0.0.2"
+  },
+  "devDependencies": {
+    "bower": "^1.4.1"
+  },
+  "description": "[![][KurentoImage]][Kurento]",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+  },
+  "keywords": [
+    "kurento",
+    "media",
+    "server",
+    "composite",
+    "mixer",
+    "webrtc"
+  ],
+  "author": "kurento - forked by GerardCL",
+  "license": "LGPL",
+  "bugs": {
+    "url": "https://github.com/gerardcl/cbodies-monitoring-app/issues"
+  }
+}

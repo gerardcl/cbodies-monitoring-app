@@ -1,0 +1,29 @@
+#videoBig {
+  text-align: center;
+}
+#videoBig {
+  text-align: center;
+}
+#input-group {
+  text-align: center;
+}
+/*body:after {
+  content:'';
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  height: 100%;
+  background: #ccc;
+  border-left: 5px double #444; //change these values to suit your liking
+}*/
+/* :after pseudo element to create the horizontal line */
+/*header:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+  margin-top: -90px;
+}*/

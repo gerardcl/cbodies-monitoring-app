@@ -1,0 +1,5 @@
+node_modules/*
+log/*.log
+pid/*.pid
+*.log
+public/bower_components/*

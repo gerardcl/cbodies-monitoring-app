@@ -1,0 +1,32 @@
+{
+  "name": "cbodiesmonitoringapp",
+  "description": "Streaming and Monitoring integrated app",
+  "authors": [
+    "gerardcl@gmail.com"
+  ],
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "LGPL",
+  "homepage": "http://www.kurento.org/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "adapter.js": "*",
+    "bootstrap": "~3.3.0",
+    "draggabilly": "~1.2.4",
+    "demo-console": "master",
+    "ekko-lightbox": "~3.3.0",
+    "kurento-utils": "master",
+    "screenfull": "^3.0.0",
+    "adapterjs": "^0.13.3",
+    "angular": "^1.5.5"
+  }
+}
